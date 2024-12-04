@@ -53,9 +53,23 @@ public class menu_opciones {
          break;
          
           case 3:
+               System.out.println("¿Que numero quieres multiplicar?"); 
+               num1=sc.nextInt();
+                 System.out.println("Cual es el otro: "); 
+               num2=sc.nextInt();
+               total=num1*num2;
+               System.out.println("El total es: " + total); 
+               System.out.println(""); 
          break;
          
           case 4:
+               System.out.println("¿Que numero quieres divir?"); 
+               num1=sc.nextInt();
+                 System.out.println("Cual es el otro: "); 
+               num2=sc.nextInt();
+               total=num1/num2;
+               System.out.println("El total es: " + total); 
+               System.out.println(""); 
          break;
          
           case 5:
