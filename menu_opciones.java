@@ -29,7 +29,13 @@ public class menu_opciones {
     switch(opcion){
          
          case 1:
-          
+             System.out.println("¿Que numero quieres sumar? "); 
+             num1=sc.nextInt();
+             System.out.println("Segundo numero a sumar"); 
+             num2=sc.nextInt();
+             
+             total=num1+num2;
+             
              
          break;
          
